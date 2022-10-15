@@ -1,0 +1,15 @@
+#Acerca-de-mi {   
+   
+    border:2px solid  #555f;
+    background-color: #bbb;
+ } 
+ 
+ 
+ 
+ .rounded-circle {  /* imagen perfil*/
+    position: relative;
+    margin-top: -5rem;
+    border:2px solid  #555f;
+   /* z-index: -1*/
+ 
+ } 

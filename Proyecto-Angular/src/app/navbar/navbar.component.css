@@ -1,0 +1,12 @@
+/* navbar */
+.navbar.navbar-expand-lg.bg-primary{
+    /* background-color:#888 !important; */
+    background: radial-gradient(circle, rgba(80,80,80,1) 20%, rgba(200,200,200,1) 100%); 
+ }
+ 
+ .bg-primary {
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     border:2px solid  #555f;
+  } 
+  

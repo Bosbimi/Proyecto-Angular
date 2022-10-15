@@ -1,0 +1,31 @@
+ 
+ /*Redes sociales*/
+ i.fa-brands.fa-facebook.fa-2xl,
+ i.fa-brands.fa-linkedin.fa-2xl,
+ i.fa-brands.fa-instagram.fa-2xl,
+ i.fa-brands.fa-twitter.fa-2xl{
+   color:#fff;
+ }
+ 
+ 
+ i.fa-brands.fa-facebook.fa-2xl:hover{
+     color:#0031ff;
+    /* transition: transform 0.3s ease-in-out ;
+     transition: scale 1.25;*//*agrandamiento no anda*/
+ }
+ 
+ i.fa-brands.fa-linkedin.fa-2xl:hover{
+     color:#18a7ec;
+ }
+ 
+ i.fa-brands.fa-instagram.fa-2xl:hover{
+     color:#f478df;
+ }
+ 
+ i.fa-brands.fa-twitter.fa-2xl:hover{
+     color:#00acee;
+ }
+ 
+ .list-group{
+    --bs-list-group-bg:transparent;
+ }  

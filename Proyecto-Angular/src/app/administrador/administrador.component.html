@@ -1,0 +1,164 @@
+<p>administrador works!</p>
+<!--Comienzo del nav -->
+<nav class="navbar navbar-expand-lg bg-primary">  
+    <div class="container-fluid">
+        <img src="assets/images/AP-YoProgramoLogo.png" alt="LogoArgentinaPrograma " width="12%" height="">
+        <h1>Página de Edición</h1>
+      <ul class="list-group list-group-horizontal">
+         <li class="list-group-item"><i class="fa-brands fa-linkedin fa-2xl "></i></li>
+         <li class="list-group-item"><i class="fa-brands fa-instagram fa-2xl "></i></li>
+         <li class="list-group-item"><i class="fa-brands fa-facebook fa-2xl "></i></li>
+         <li class="list-group-item"><i class="fa-brands fa-twitter fa-2xl "></i></li>
+         <!--Button trigger modal. Este boton llama al Modal -->
+         <li class="list-group-item"><i class="fa-solid fa-user" type="button"></i></li>
+      </ul>
+    </div>
+</nav><!--Fin del nav-->
+
+  <div class="container-fluid text-center">
+<!--Sidebar de administracion (primera columna del grid):-->
+    <div class="row">
+      <div class="col-2">
+        <div class="d-flex align-items-start">
+          <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Acerca de mi:</button>
+            <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Mis Redes</button>
+            <button class="nav-link" id="v-pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false" >Experiencia</button>
+            <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Educacion</button>
+            <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Habilidades</button>
+            <button class="nav-link" id="v-pills-proyectos-tab" data-bs-toggle="pill" data-bs-target="#v-pills-proyectos" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Proyectos</button>
+          </div>
+        </div>
+      </div>
+   
+      <!--segunda columna del grid con los formularios:-->
+      <!--Acerca de mi-->
+      <div class="col-9 tab-content" id="v-pills-tabContent">
+        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+          <h4 class="text center">Acerca de mi</h4>
+          <div class="mb-3"> 
+            <label for="formFileSm" class="form-label">Foto de Perfil</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="file">
+            <button type="button" class="btn btn-primary">Confirmar</button>
+          </div>
+          <div class="mb-3"> 
+            <label for="formFileSm" class="form-label">Nombre y Apellido</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="text">
+            <button type="button" class="btn btn-primary">Confirmar</button>
+          </div>
+          <div class="mb-3"> 
+            <label for="formFileSm" class="form-label">Banner</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="file">
+            <button type="button" class="btn btn-primary">Confirmar</button>
+          </div>
+          <div class="col-1">
+            <!--columna vacia-->
+          </div>
+        </div>  
+        <!--Mis redes-->
+        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+          <h4 class="text center">Mis Redes</h4>
+          <div class="mb-3"> 
+            <label for="formFileSm" class="form-label">URL Red</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="file">
+            <button type="button" class="btn btn-primary">Confirmar</button>
+          </div>
+          <div class="mb-3"> 
+            <label for="formFileSm" class="form-label">URL Red</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="file">
+            <button type="button" class="btn btn-primary">Confirmar</button>
+          </div>
+          <div class="mb-3"> 
+            <label for="formFileSm" class="form-label">URL Red</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="file">
+            <button type="button" class="btn btn-primary">Confirmar</button>
+          </div>
+          <div class="mb-3"> 
+            <label for="formFileSm" class="form-label">URL Red</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="file">
+            <button type="button" class="btn btn-primary">Confirmar</button>
+          </div>   
+          <div class="col-1">
+            <!--columna vacia-->
+          </div>
+        </div>
+
+        <!--Experiencia-->
+        <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0">
+          <h4 class="text center">Experiencia</h4>
+           <div class="mb-3"> 
+            <label for="formFileSm" class="form-label">Logo empresa</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="file">
+            <button type="button" class="btn btn-primary">Confirmar</button>
+          </div>
+           <div class="mb-3"> 
+            <label for="formFileSm" class="form-label">Puesto</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="text">
+            <button type="button" class="btn btn-primary">Confirmar</button>
+          </div>
+           <div class="mb-3"> 
+            <label for="formFileSm" class="form-label">Descripcion</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="text">
+            <button type="button" class="btn btn-primary">Confirmar</button>
+          </div>
+           <div class="mb-3"> 
+            <label for="formFileSm" class="form-label">Periodo</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="text">
+            <button type="button" class="btn btn-primary">Confirmar</button>
+          </div>
+          <div class="col-1">
+            <!--columna vacia-->
+          </div>
+        </div>
+
+        <!--Educacion-->
+        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0"><h4 class="text center">Educación</h4>
+           <div class="mb-3"> 
+            <label for="formFileSm" class="form-label">Nombre Instituto</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="text">
+            <button type="button" class="btn btn-primary">Confirmar</button>
+          </div> 
+          <div class="mb-3"> 
+            <label for="formFileSm" class="form-label">Logo Instituto</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="file">
+            <button type="button" class="btn btn-primary">Confirmar</button>
+          </div> 
+          <div class="mb-3"> 
+            <label for="formFileSm" class="form-label">Titulo/Carrera</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="text">
+            <button type="button" class="btn btn-primary">Confirmar</button>
+          </div>
+          <div class="mb-3"> 
+            <label for="formFileSm" class="form-label">Periodo de Cursada</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="text">
+            <button type="button" class="btn btn-primary">Confirmar</button>
+          </div>
+          <div class="col-1">
+            <!--columna vacia-->
+          </div>
+        </div>
+        
+        <!--Habilidades-->
+        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0"><div class="mb-3">
+            <h4 class="text center">Habilidades</h4>
+            <label for="formFileSm" class="form-label">Periodo de Cursada</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="text">
+            <button type="button" class="btn btn-primary">Confirmar</button>
+          </div>
+          <div class="col-1">
+            <!--columna vacia-->
+          </div>
+        </div>
+
+        <!--Proyectos-->
+        <div class="tab-pane fade" id="v-pills-proyectos" role="tabpanel" aria-labelledby="v-pills-proyectos-tab" tabindex="0"><h4 class="text center">Proyectos</h4>
+            <label for="formFileSm" class="form-label">Descripcion</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="text">
+            <button type="button" class="btn btn-primary">Confirmar</button>
+          </div>
+          <div class="col-1">
+            <!--columna vacia-->
+          </div>
+        </div>
+      </div>
+    </div>

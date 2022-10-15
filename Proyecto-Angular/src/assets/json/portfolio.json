@@ -1,0 +1,111 @@
+{
+
+  "nombre": "Julio",
+  "apellido": "Villoria",
+  "titulo": "Full Stack Developer Jr.",
+  
+  "datosPersonales":
+    {
+      "imagen": "./assets/images/FOTO PERFIL.JPG",
+      "titulo": "Full Stack Developer Jr.",
+      "acercaDeMi": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodincididunt ut labore et dolore magna aliqua. empor incididunt ut labore et dolore magna aliqua."   
+    }, 
+
+  "experiencia":[
+    {
+      "id": 0,
+      "imagen": "././assets/images/logo empresa.jpg",
+      "puesto": "Operario Especializado",
+      "periodo": "desde marzo 1981 hasta marzo 1985",
+      "actividad": "Montaje y soldadura de plaquetas electronicas para control de antenas de redio para automoviles"   
+    }, 
+    {
+      "id": 1,
+      "imagen": "././assets/images/logo empresa.jpg",
+      "puesto": "Actividad comercial por cuenta propia",
+      "periodo": "desde marzo 1985 hasta marzo 2018",
+      "actividad": "Negocio Venta Minorista"   
+    }, 
+    {
+      "id": 2,
+      "imagen": "././assets/images/logo empresa.jpg",
+      "puesto": "Actividad por cuenta propia",
+      "periodo":"desde marzo 1985 hasta marzo 2022",
+      "actividad": "Electricista"   
+    }
+  ],
+  
+  "educacion":[
+    {
+      "id": 0,
+      "carrera": "././assets/images/logo empresa.jpg",
+      "periodo": "desde marzo 1981 hasta marzo 1985",
+      "comentarios": "desde marzo 1981 hasta marzo 1985"
+    }, 
+    {
+      "id": 1,
+      "carrera": "././assets/images/logo empresa.jpg",
+      "periodo": "desde marzo 1981 hasta marzo 1985",
+      "comentarios": "desde marzo 1981 hasta marzo 1985"
+    }, 
+    {
+      "id": 2,
+      "carrera": "././assets/images/logo empresa.jpg",
+      "periodo": "desde marzo 1981 hasta marzo 1985",
+      "comentarios": "desde marzo 1981 hasta marzo 1985"
+    }
+  ],
+  
+  "proyectos":[
+    {
+      "id": 0,
+      "nombre": "Lorem ipsum",
+      "fecha": "desde marzo 1981 hasta marzo 1985",
+      "descripcion": "desde marzo 1981 hasta marzo 1985",
+      "link": "desde marzo 1981 hasta marzo 1985"
+    }, 
+    {
+      "id": 1,
+      "nombre": "Lorem ipsum",
+      "fecha": "desde marzo 1981 hasta marzo 1985",
+      "descripcion": "Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ",
+      "link": "#"
+    }, 
+    {
+      "id": 2,
+      "nombre": "Lorem ipsum",
+      "fecha": "desde marzo 1981 hasta marzo 1985",
+      "descripcion": "Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ",
+      "link": "#"
+    }
+  ],  
+  
+  "habilidades":[
+    {
+      "id": 0
+     
+    }, 
+    {
+      "id": 1
+     
+    }, 
+    {
+      "id": 2
+    }
+  ]  
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

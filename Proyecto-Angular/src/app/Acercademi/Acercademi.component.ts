@@ -11,18 +11,21 @@ import { PortfolioService } from '../servicios/portfolio.service';
 
 
 export class AcercademiComponent implements OnInit {
-//Crea la variable de instancia donde almacenar datos que trae el servicio
-titulo: any;
-//texto: any;
-
+//Inicializa la(s) variable(s) de instancia donde almacenar datos que trae el servicio
+titulo: string= '';
+acerca: string= '';
+//img: any= '' ver como hacerlo
 //Inyecta el servicio para que acceda en la clase a los Metodos
   constructor(private portfolioService: PortfolioService) {}
 
   ngOnInit(): void {
     //Almacena en la variable de instancia los datos recuperados por el servicio
-    this.portfolioService.getDatos().subscribe(datitos=>{
-      console.log(datitos);
-    //this.titulo= datitos;   
+    this.portfolioService.getDatos().subscribe(portfolio=>{
+      console.log(portfolio);
+      //Asigna a la variable titulo creada arriba el dato traido del json
+    this.titulo= portfolio.titulo; 
+    this.acerca= portfolio.acercaDeMi; 
+    //this.img= portfolio.imgPerfil ver como se hace
     })
   }
 

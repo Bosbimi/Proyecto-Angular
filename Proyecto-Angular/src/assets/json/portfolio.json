@@ -1,16 +1,10 @@
 {
 
-  "nombre": "Julio",
-  "apellido": "Villoria",
-  "titulo": "Full Stack Developer Jr.",
   
-  "datosPersonales":
-    {
-      "imagen": "./assets/images/FOTO PERFIL.JPG",
-      "titulo": "Full Stack Developer Jr.",
-      "acercaDeMi": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodincididunt ut labore et dolore magna aliqua. empor incididunt ut labore et dolore magna aliqua."   
-    }, 
-
+  "titulo": "Full Stack Developer Jr.",
+  "acercaDeMi": "Lorena ipsum Aisasbúndaba Pafundafía sit amet, consectetur adipisicing elit, sed do eiusmodincididunt ut labore et dolore magna aliqua. empor incididunt ut labore et dolore magna aliqua.",   
+  "imgPerfil": "./assets/images/FOTO PERFIL.JPG",
+  
   "experiencia":[
     {
       "id": 0,

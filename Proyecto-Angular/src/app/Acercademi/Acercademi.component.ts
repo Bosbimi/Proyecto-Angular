@@ -13,8 +13,8 @@ import { PortfolioService } from '../servicios/portfolio.service';
 export class AcercademiComponent implements OnInit {
 //Inicializa la(s) variable(s) de instancia donde almacenar datos que trae el servicio
 titulo: string= '';
-acerca: string= '';
-//img: any= '' ver como hacerlo
+descripcion: string= '';
+img: any= '' //ver como hacerlo
 //Inyecta el servicio para que acceda en la clase a los Metodos
   constructor(private portfolioService: PortfolioService) {}
 
@@ -24,8 +24,8 @@ acerca: string= '';
       console.log(portfolio);
       //Asigna a la variable titulo creada arriba el dato traido del json
     this.titulo= portfolio.titulo; 
-    this.acerca= portfolio.acercaDeMi; 
-    //this.img= portfolio.imgPerfil ver como se hace
+    this.descripcion= portfolio.descripcion;
+    this.img= portfolio.imgPerfil;
     })
   }
 

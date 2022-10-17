@@ -1,9 +1,13 @@
 {
-
-  "banner": "#",
+  "banner": "./assets/images/banner.png",
+  
+  
+   
   "titulo": "Full Stack Developer Jr.",
-  "acercaDeMi": "Lorena ipsum Aisasbúndaba Pafundafía sit amet, consectetur adipisicing elit, sed do eiusmodincididunt ut labore et dolore magna aliqua. empor incididunt ut labore et dolore magna aliqua.",   
+  "descripcion": "Lorena Veron ipsum Aisasbúndaba Pafundafía sit amet, consectetur adipisicing elit, sed do papaito ut labore et dolore magna aliqua. empor incididunt ut labore et dolore magna aliqua.",   
   "imgPerfil": "./assets/images/FOTO PERFIL.JPG",
+   
+
   
   "experiencia":[
     {

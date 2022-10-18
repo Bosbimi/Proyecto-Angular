@@ -1,32 +1,29 @@
 {
   "banner": "./assets/images/banner.png",
-  
-  
-   
+    
   "titulo": "Full Stack Developer Jr.",
   "descripcion": "Lorena Veron ipsum Aisasbúndaba Pafundafía sit amet, consectetur adipisicing elit, sed do papaito ut labore et dolore magna aliqua. empor incididunt ut labore et dolore magna aliqua.",   
   "imgPerfil": "./assets/images/FOTO PERFIL.JPG",
-   
 
   
   "experiencia":[
     {
       "id": 0,
-      "imagen": "././assets/images/logo empresa.jpg",
+      "imagen": "./assets/images/studio eletronics.jpg",
       "puesto": "Operario Especializado",
       "periodo": "desde marzo 1981 hasta marzo 1985",
       "actividad": "Montaje y soldadura de plaquetas electronicas para control de antenas de redio para automoviles"   
     }, 
     {
       "id": 1,
-      "imagen": "././assets/images/logo empresa.jpg",
+      "imagen": "./assets/images/globant-logo.jpg",
       "puesto": "Actividad comercial por cuenta propia",
       "periodo": "desde marzo 1985 hasta marzo 2018",
       "actividad": "Negocio Venta Minorista"   
     }, 
     {
       "id": 2,
-      "imagen": "././assets/images/logo empresa.jpg",
+      "imagen": "./assets/images/digital company.png",
       "puesto": "Actividad por cuenta propia",
       "periodo":"desde marzo 1985 hasta marzo 2022",
       "actividad": "Electricista"   
@@ -80,19 +77,25 @@
   
   "habilidades":[
     {
-      "id": 0
-     
+      "id": 0,
+      "habilidad": "HTML",
+      "porcentaje": "80"
     }, 
     {
-      "id": 1
-     
+      "id": 1,
+      "habilidad": "Bootstrap",
+      "porcentaje": "30"
     }, 
     {
-      "id": 2
+      "id": 2,
+      "habilidad": "Angular",
+      "porcentaje": "25"
+    },
+    {  "id": 3,
+      "habilidad": "Otra Habilidad",
+      "porcentaje": "75"
     }
-  ]  
-
-
+    ]
 }
 
 

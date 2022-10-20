@@ -2,14 +2,16 @@
   "banner": "./assets/images/banner.png",
     
   "titulo": "Full Stack Developer Jr.",
-  "descripcion": "Lorena Veron ipsum Aisasbúndaba Pafundafía sit amet, consectetur adipisicing elit, sed do papaito ut labore et dolore magna aliqua. empor incididunt ut labore et dolore magna aliqua.",   
+
+  "descripcion": "Lorena Veron ipsum Aisasbúndaba Pafundafía sit amet, consectetur adipisicing elit, sed do papaito ut labore et dolore magna aliqua. empor incididunt ut labore et dolore magna aliqua.", 
+
   "imgPerfil": "./assets/images/FOTO PERFIL.JPG",
 
   
   "experiencia":[
     {
       "id": 0,
-      "imagen": "./assets/images/studio eletronics.jpg",
+      "imagen": "./assets/images/studio electronics.jpg",
       "puesto": "Operario Especializado",
       "periodo": "desde marzo 1981 hasta marzo 1985",
       "actividad": "Montaje y soldadura de plaquetas electronicas para control de antenas de redio para automoviles"   
@@ -25,7 +27,7 @@
       "id": 2,
       "imagen": "./assets/images/digital company.png",
       "puesto": "Actividad por cuenta propia",
-      "periodo":"desde marzo 1985 hasta marzo 2022",
+      "periodo":"desde marzo 1985 hasta hoy",
       "actividad": "Electricista"   
     }
   ],
@@ -33,21 +35,24 @@
   "educacion":[
     {
       "id": 0,
-      "carrera": "./assets/images/UTN_logo.jpg",
+      "imagen": "./assets/images/UTN_logo.jpg",
+      "carrera": "Ciclo Básico de Ingenieria en Electrónica",
       "periodo": "desde marzo 1985 hasta marzo 1990",
-      "comentarios": "Lorena Veron Ipsum"
+      "comentarios": "Lorena Ipsum"
     }, 
     {
       "id": 1,
-      "carrera": "./assets/images/logo institucion.jpg",
-      "periodo": "desde marzo 1981 hasta marzo 1985",
-      "comentarios": "Lorena Veron Ipsum"
+      "imagen": "./assets/images/logo institucion.jpg",
+      "carrera": "Lorena Veron Ipsum",
+      "periodo": "desde marzo 1983 hasta marzo 1985",
+      "comentarios": "Papaíto Piernas Largas"
     }, 
     {
       "id": 2,
-      "carrera": "./assets/images/logo institucion.jpg",
-      "periodo": "desde marzo 1981 hasta marzo 1985",
-      "comentarios": "Lorena Veron Ipsum"
+      "imagen": "./assets/images/logo institucion.jpg",
+      "carrera": "Loren Ipsum",
+      "periodo": "desde marzo 19381 hasta marzo 19385",
+      "comentarios": "Aisasbúndaba Pafundafía"
     }
   ],
   
@@ -57,7 +62,7 @@
       "nombre": "Lorem ipsum",
       "fecha": "desde marzo 1981 hasta marzo 1985",
       "descripcion": "desde marzo 1981 hasta marzo 1985",
-      "link": "desde marzo 1981 hasta marzo 1985"
+      "link": ""
     }, 
     {
       "id": 1,

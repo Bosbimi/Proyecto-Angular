@@ -1,15 +1,15 @@
- <!--Seccion Experiencia-->
- <section id= "experiencia">
+ <!--Seccion Educacion-->
+ <section id= "educacion">
     <div class="container-fluid">
       <br>
-      <h5 ><b><i>Experiencia:</i></b></h5>
+      <h5 ><b><i>Educación:</i></b></h5>
        <div class="row"  *ngFor="let dato of portfolio">
           <div class="col-2"> <img class="img-thumbnail" [src]= "dato.imagen" width="50%" alt=""></div> 
-          <div class="col-2"><h6><b>Puesto:</b></h6>{{dato.puesto}}</div>
+          <div class="col-2"><h6><b>Estudios cursados:</b></h6>{{dato.carrera}}</div>
           <div class="col-4"><h6><b>Período:</b></h6>Desde {{dato.periodo}} hasta {{dato.periodo}}</div>
-          <div class="col-4"><h6><b>Actividad Desarrollada:</b></h6>{{dato.actividad}}</div>
+          <div class="col-4"><h6><b>Comentarios:</b></h6>{{dato.comentarios}}</div>
        </div>
     </div>
  </section>
  <br>
- 
+

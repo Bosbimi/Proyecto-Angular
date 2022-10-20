@@ -12,6 +12,9 @@ import { AcercademiComponent } from './Acercademi/Acercademi.component';
 import { AdministradorComponent } from './administrador/administrador.component';
 import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { HabilidadesComponent } from './habilidades/habilidades.component';
+import { EducacionComponent } from './educacion/educacion.component';
+import { ProyectosComponent } from './proyectos/proyectos.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { HabilidadesComponent } from './habilidades/habilidades.component';
     AcercademiComponent,
     AdministradorComponent,
     ExperienciaComponent,
-    HabilidadesComponent
+    HabilidadesComponent,
+    EducacionComponent,
+    ProyectosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

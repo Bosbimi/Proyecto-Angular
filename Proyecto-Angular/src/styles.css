@@ -4,9 +4,25 @@ body{
     margin-right: 5 rem;
     padding: 0.25%;
     background-color: #ccc;
- }
+}
 
- #Acerca-de-mi, #experiencia, #educacion, #Proyectos  {   
+ #Acerca-de-mi, #experiencia, #educacion, #proyectos {   
     border:2px solid  #555f;
     background-color: #bbb;
- }
+}
+ 
+ /*Separacion entre items*/
+ .row{
+   margin-bottom: 2rem;
+   margin-top: 2rem; 
+}
+
+h5 b i {
+  text-decoration: underline;
+  color: dodgerblue;
+}
+
+/*.container-fluid{
+padding-top: 3px;
+}*/
+

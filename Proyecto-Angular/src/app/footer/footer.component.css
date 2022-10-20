@@ -1,0 +1,8 @@
+.footer{
+border:2px solid  #555f;
+background: radial-gradient(circle, rgba(80,80,80,1) 20%, rgba(200,200,200,1) 100%); 
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+padding-top: 2rem;
+padding-bottom: 2rem;
+}

@@ -33,21 +33,21 @@
   "educacion":[
     {
       "id": 0,
-      "carrera": "././assets/images/logo empresa.jpg",
-      "periodo": "desde marzo 1981 hasta marzo 1985",
-      "comentarios": "desde marzo 1981 hasta marzo 1985"
+      "carrera": "./assets/images/UTN_logo.jpg",
+      "periodo": "desde marzo 1985 hasta marzo 1990",
+      "comentarios": "Lorena Veron Ipsum"
     }, 
     {
       "id": 1,
-      "carrera": "././assets/images/logo empresa.jpg",
+      "carrera": "./assets/images/logo institucion.jpg",
       "periodo": "desde marzo 1981 hasta marzo 1985",
-      "comentarios": "desde marzo 1981 hasta marzo 1985"
+      "comentarios": "Lorena Veron Ipsum"
     }, 
     {
       "id": 2,
-      "carrera": "././assets/images/logo empresa.jpg",
+      "carrera": "./assets/images/logo institucion.jpg",
       "periodo": "desde marzo 1981 hasta marzo 1985",
-      "comentarios": "desde marzo 1981 hasta marzo 1985"
+      "comentarios": "Lorena Veron Ipsum"
     }
   ],
   

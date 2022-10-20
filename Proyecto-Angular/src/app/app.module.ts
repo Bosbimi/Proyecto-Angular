@@ -11,6 +11,7 @@ import { BannerComponent } from './banner/banner.component';
 import { AcercademiComponent } from './Acercademi/Acercademi.component';
 import { AdministradorComponent } from './administrador/administrador.component';
 import { ExperienciaComponent } from './experiencia/experiencia.component';
+import { HabilidadesComponent } from './habilidades/habilidades.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ExperienciaComponent } from './experiencia/experiencia.component';
     BannerComponent,
     AcercademiComponent,
     AdministradorComponent,
-    ExperienciaComponent
+    ExperienciaComponent,
+    HabilidadesComponent
   ],
   imports: [
     BrowserModule,

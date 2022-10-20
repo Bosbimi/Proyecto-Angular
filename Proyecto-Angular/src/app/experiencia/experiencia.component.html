@@ -1,13 +1,12 @@
  <!--Seccion Experiencia-->
  <section id= "experiencia">
     <div class="container-fluid">
-        <h5 ><b>Experiencia:</b></h5>
-       <div class="row" *ngFor=" let dato of portfolio">
-          <div class="col-2"> <img class="img-thumbnail" [src]= "portfolio.experiencia.imagen" width="50%" alt=""></div> 
-          <div class="col-2"><h6><b>Puesto:</b></h6>{{portfolio.experiencia.puesto}}</div>
-          <div class="col-4"><h6><b>Periodo:</b></h6>Desde dia/mes/año hasta dia/mes/año </div>
-          <div class="col-3"><h6><b>Actividad Desarrollada:</b></h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.</div>
+      <h5 ><b><i>Experiencia:</i></b></h5>
+       <div class="row" *ngFor="let dato of portfolio">
+          <div class="col-2"> <img class="img-thumbnail" [src]= "dato.imagen" width="50%" alt=""></div> 
+          <div class="col-2"><h6><b>Puesto:</b></h6>{{dato.puesto}}</div>
+          <div class="col-4"><h6><b>Periodo:</b></h6>Desde {{dato.periodo}} hasta {{dato.periodo}}</div>
+          <div class="col-3"><h6><b>Actividad Desarrollada:</b></h6>{{dato.actividad}}</div>
             <div class="col-1"></div><!--columna vacia-->
        </div>
     </div>

@@ -1,0 +1,10 @@
+/* borde y fondo contenedor*/
+#Hard-soft-skills  {
+    background-color: #bbb;
+    border:2px solid  #555f;
+ } 
+/* bordes y fondo barras*/
+#Hard-soft-skills .container-fluid .progress {
+    border:2px solid  #555;
+    background-color: rgb(137, 170, 192);
+}

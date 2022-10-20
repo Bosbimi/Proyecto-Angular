@@ -24,7 +24,7 @@ export class ExperienciaComponent implements OnInit {
       //this.puesto= portfolio.experiencia.puesto;
       //this.periodo= portfolio.experiencia.periodo;
       //this.actividad= portfolio.experiencia.actividad;
-      this.portfolio= portfolio 
+      this.portfolio= portfolio.experiencia 
     })
 
   }

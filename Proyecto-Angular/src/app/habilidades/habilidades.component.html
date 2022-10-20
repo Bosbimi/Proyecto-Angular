@@ -1,0 +1,20 @@
+   <!--Seccion Habilidades-->
+   <section id="Hard-soft-skills">
+      <h5 ><b><i>Habilidades (Nivel Relativo Alcanzado):</i></b></h5>
+      <!--Recorro la variable "habilidades" creada en el .ts-->
+      <div class="container-fluid" *ngFor= "let item of habilidades">
+         <!--<div class="progress" style="height: 2rem">
+            <div class="progress-bar" role="progressbar" aria-label="Example 20px high" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+               Una Habilidad
+            </div>
+         </div>-->
+         <div class="progress mb-1" style="height: 3rem">
+            <!--Aplico style binding (no ngStyle) para modificar porcentaje dinamicamente-->
+            <div class="progress-bar" role="progressbar" [style.width.%]="item.porcentaje">
+             <!--/Muestra el campo "habilidad" dentro de cada registro del array "habilidades"-->
+             <b>{{item.habilidad}}:</b> {{item.porcentaje}}%
+            </div>
+         </div>
+      </div>
+   </section>
+   <br><br><br><br>

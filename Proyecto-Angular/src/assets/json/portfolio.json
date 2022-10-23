@@ -11,23 +11,26 @@
   "experiencia":[
     {
       "id": 0,
-      "imagen": "./assets/images/studio electronics.jpg",
+      "imagen": "./assets/images/Nippon-America-270x270.jpg",
       "puesto": "Operario Especializado",
-      "periodo": "desde marzo 1981 hasta marzo 1985",
-      "actividad": "Montaje y soldadura de plaquetas electronicas para control de antenas de redio para automoviles"   
+      "desde": "1981",
+      "hasta": "1985",
+      "actividad": "Montaje y soldadura de plaquetas electrónicas para control de antenas de radio eléctricas para automóviles"   
     }, 
     {
       "id": 1,
       "imagen": "./assets/images/globant-logo.jpg",
       "puesto": "Actividad comercial por cuenta propia",
-      "periodo": "desde marzo 1985 hasta marzo 2018",
+      "desde": "1985",
+      "hasta": "2018",
       "actividad": "Negocio Venta Minorista"   
     }, 
     {
       "id": 2,
       "imagen": "./assets/images/digital company.png",
       "puesto": "Actividad por cuenta propia",
-      "periodo":"desde marzo 1985 hasta hoy",
+      "desde": "1985",
+      "hasta": "hoy",
       "actividad": "Electricista"   
     }
   ],
@@ -37,21 +40,24 @@
       "id": 0,
       "imagen": "./assets/images/UTN_logo.jpg",
       "carrera": "Ciclo Básico de Ingenieria en Electrónica",
-      "periodo": "desde marzo 1985 hasta marzo 1990",
+      "desde": "1985",
+      "hasta": "1990",
       "comentarios": "Lorena Ipsum"
     }, 
     {
       "id": 1,
       "imagen": "./assets/images/logo institucion.jpg",
       "carrera": "Lorena Veron Ipsum",
-      "periodo": "desde marzo 1983 hasta marzo 1985",
+      "desde": "1981",
+      "hasta": "1985",
       "comentarios": "Papaíto Piernas Largas"
     }, 
     {
       "id": 2,
       "imagen": "./assets/images/logo institucion.jpg",
       "carrera": "Loren Ipsum",
-      "periodo": "desde marzo 19381 hasta marzo 19385",
+      "desde": "1981",
+      "hasta": "1985",
       "comentarios": "Aisasbúndaba Pafundafía"
     }
   ],
@@ -60,21 +66,24 @@
     {
       "id": 0,
       "nombre": "Lorem ipsum",
-      "fecha": "desde marzo 1981 hasta marzo 1985",
+      "desde": "1981",
+      "hasta": "1985",
       "descripcion": "desde marzo 1981 hasta marzo 1985",
       "link": ""
     }, 
     {
       "id": 1,
       "nombre": "Lorem ipsum",
-      "fecha": "desde marzo 1981 hasta marzo 1985",
+      "desde": "1981",
+      "hasta": "1985",
       "descripcion": "Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ",
       "link": "#"
     }, 
     {
       "id": 2,
       "nombre": "Lorem ipsum",
-      "fecha": "desde marzo 1981 hasta marzo 1985",
+      "desde": "1981",
+      "hasta": "1985",
       "descripcion": "Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ",
       "link": "#"
     }

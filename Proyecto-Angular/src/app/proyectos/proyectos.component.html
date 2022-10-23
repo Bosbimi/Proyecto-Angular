@@ -5,7 +5,7 @@
        <h5 ><b><i>Proyectos:</i></b></h5>
        <div class="row"  *ngFor="let dato of portfolio">
           <div class="col-2"><h6><b>Nombre:</b></h6>{{dato.nombre}}</div>
-          <div class="col-2"><h6><b>Fecha:</b></h6>{{dato.fecha}}</div>
+          <div class="col-2"><h6><b>Período:</b></h6>Desde {{dato.desde}} hasta {{dato.hasta}}</div>
           <div class="col-4"><h6><b>Descripción:</b></h6>{{dato.descripcion}}</div>
           <div class="col-4"><h6><b>Link al Proyecto:</b></h6>{{dato.link}}</div>
        </div>

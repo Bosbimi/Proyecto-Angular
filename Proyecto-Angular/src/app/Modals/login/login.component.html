@@ -1,31 +1,49 @@
-     <!--Comienzo cabecera modal nav-->
-     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-         <div class="modal-content">
-            <div class="modal-header">
-             <h5 class="modal-title" id="exampleModalLabel">Ingreso</h5>
-             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button><!--El boton"X"-->
-            </div>
-         <!--comienzo cuerpo Modal-->
-          <div class="modal-body">
-             <div class="mb-3 row"><!--Linea de ingreso de Usuario-->
-              <label for="staticEmail" class="col-sm-2 col-form-label">Usuario:</label><!--Etiqueta que dice e-mail-->
-               <div class="col-sm-10">
-                 <input type="text" class="form-control-plaintext" id="staticEmail" value="email@ejemplo.com"><!--imput del e-mail-->
-               </div>
-           </div>
-           <div class="mb-3 row"><!--Linea de ingreso de contraseña-->
-              <label for="inputPassword" class="col-sm-3 col-form-label">Contraseña:</label>
-                <div class="col-sm-10">
-                  <input type="password" class="form-control" id="inputPassword"><!--Imput de la contraseña-->
-                </div>
-           </div>
-          </div>
-         <div class="modal-footer"><!--Empieza footer del Modal-->
-            <button type="button" class="btn btn-primary">Inicio de sesion</button>
-          </div>
-        </div>
-       </div>
-    </div><!--Fin del Modal-->
 
+ <form [formGroup]= "form"  (ngSubmit)="onEnviar($event)" >
+  <!--<form [formGroup]= "form" (submit)="submit()"> -->   
+  <!--Comienzo cabecera modal nav-->
+   <div class="modal fade" id="exampleModal" tabindex="-1">
+      <div class="modal-dialog">
+       <div class="modal-content">
+          <div class="modal-header">
+           <h5 class="modal-title" id="exampleModalLabel">Ingreso</h5>
+           <button type="button" class="btn-close" data-bs-dismiss="modal"></button><!--El boton"X"-->
+       </div>
+       <!--comienzo cuerpo Modal-->
+        <div class="modal-body">
+           <div class="mb-3 row"><!--Linea de ingreso de Usuario-->
+            <label for="staticEmail" class="col-sm-2 col-form-label">E-mail:</label><!--Etiqueta que dice "E-mail"-->
+             <div class="col-sm-10">
+               <!--Si el imput es MailInvalid=true se pone borde rojo-->
+               <input type="email" class="form-control-email"  formControlName="email" [class.border-danger]="MailInvalid"id="staticEmail" value="Ingrese aqui su E-mail"> <!--imput del e-mail-->
+                <!-- Gracias al getter que configuramos en el controlador -->
+               <div *ngIf="Mail?.errors  && Mail?.touched">    
+                  <p *ngIf="Mail?.hasError('required')" class="error">¡El email es obligatorio!</p>
+                  <p *ngIf="Mail?.hasError('email')" class="error">¡El formato del email debe ser válido!</p>
+               </div>
+             </div>
+         </div>
+         <div class="mb-3 row"><!--Linea de ingreso de contraseña-->
+            <label for="inputPassword" class="col-sm-3 col-form-label">Contraseña:</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" formControlName="password" [class.border-danger]="PasswordInvalid" id="inputPassword"><!--Imput de la contraseña-->
+                <!-- Gracias al getter que configuramos en el controlador -->
+                <div *ngIf="Password?.errors && Password?.touched">
+                  <p *ngIf="Password?.hasError ('required')&& Password?.touched" class="error">¡La contraseña es obligatoria!</p>
+                 <p *ngIf= "Password?.hasError('minlength')" class="error">¡La contraseña debe tener minimo 8 caracteres!</p>
+                </div>
+              </div>
+         </div>
+           <div class="modal-footer"><!--Empieza footer del Modal-->
+             <button type="submit" class="btn btn-primary">Inicio de sesion</button>
+           </div>
+         </div>
+      </div>
+   </div><!--Fin del Modal-->
    
+  </div>
+</form>
+
+
+
+ 

@@ -10,8 +10,8 @@
  
  i.fa-brands.fa-facebook.fa-2xl:hover{
      color:#0031ff;
-    /* transition: transform 0.3s ease-in-out ;
-     transition: scale 1.25;*//*agrandamiento no anda*/
+    /* transition: transform 0.3s ease-in-out;*/
+    /* transition: scale 1.25;/*agrandamiento no anda*/
  }
  
  i.fa-brands.fa-linkedin.fa-2xl:hover{

@@ -9,7 +9,7 @@ import { AdministradorComponent } from './administrador/administrador.component'
 
 const routes: Routes = [ 
   //{path: '', component: AcercademiComponent},
-  {path: 'admin', component: AdministradorComponent},
+  {path: 'administrador', component: AdministradorComponent},
   //{path: '', redirectTo: '/', pathMatch: 'full'},
   //{path: '**', component:ErrorComponent}, falta crear, importar y declarar ruta del componente error
   

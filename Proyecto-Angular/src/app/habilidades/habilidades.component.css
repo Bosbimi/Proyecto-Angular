@@ -2,9 +2,12 @@
 #Hard-soft-skills  {
     background-color: #bbb;
     border:2px solid  #555f;
+    box-shadow: 6px 6px 5px 2px rgb(46, 44, 44);
  } 
 /* bordes y fondo barras*/
 #Hard-soft-skills .container-fluid .progress {
     border:2px solid  #555;
     background-color: rgb(137, 170, 192);
+    box-shadow: 6px 6px 5px 2px rgb(46, 44, 44);
 }
+

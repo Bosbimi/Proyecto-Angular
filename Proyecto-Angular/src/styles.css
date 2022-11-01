@@ -19,10 +19,16 @@ body{
 
 h5 b i {
   text-decoration: underline;
-  color: dodgerblue;
+  color:rgb(27, 4, 236);
+  text-shadow: 6px 6px 5px  rgb(46, 44, 44);
 }
 
 /*.container-fluid{
 padding-top: 3px;
 }*/
+
+.img-thumbnail{
+  border:2px solid  rgb(27, 4, 236);
+  box-shadow: 6px 6px 5px 2px rgb(46, 44, 44);
+}
 

@@ -14,7 +14,8 @@ export class AcercademiComponent implements OnInit {
 //Inicializa la(s) variable(s) de instancia donde almacenar datos que trae el servicio
 titulo: string= '';
 descripcion: string= '';
-img: any= '' 
+img: any= ''
+banner?: any;
 //Inyecta el servicio para que acceda en la clase a los Metodos
   constructor(private portfolioService: PortfolioService) {}
 
@@ -27,6 +28,7 @@ img: any= ''
       this.titulo= portfolio.titulo; 
       this.descripcion= portfolio.descripcion;
       this.img= portfolio.imgPerfil;
+      this.banner= portfolio.banner; 
     })
   }
 

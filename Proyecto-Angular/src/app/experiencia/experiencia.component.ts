@@ -24,6 +24,7 @@ export class ExperienciaComponent implements OnInit {
       //this.puesto= portfolio.experiencia.puesto;
       //this.periodo= portfolio.experiencia.periodo;
       //this.actividad= portfolio.experiencia.actividad;
+      //traigo el trozo "experiencia" desde el json para recorrerlo con *ngFor 
       this.portfolio= portfolio.experiencia 
     })
 

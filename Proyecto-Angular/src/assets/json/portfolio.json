@@ -3,7 +3,7 @@
     
   "titulo": "Full Stack Developer Jr.",
 
-  "descripcion": "Lorena Veron ipsum Aisasbúndaba Pafundafía sit amet, consectetur adipisicing elit, sed do Papaíto Piernas Largas ut labore et dolore magna aliqua. empor incididunt ut labore et dolore magna aliqua.", 
+  "descripcion": "Bienvenido a mi Curriculum-Vitae. En el decribo todo acerca de mis aptitudes, de lo que hice y de lo que aprendí . Tengo 61 años. Me gusta aprender porque entiendo que el conocimiento es la llave para progresar y servir mejor a los demás y a uno mismo en un mundo cada dia mas exigente de aptitudes y saber. Conozco sobre varios temas pero especialmente en lo relacionado con lo tecnológico. Mi interés y saberes principales estan en la Electrónica, pero en este momento estoy incursionando en el tema de la programación. ", 
 
   "imgPerfil": "./assets/images/FOTO PERFIL.JPG",
 
@@ -84,27 +84,27 @@
   "proyectos":[
     {
       "id": 0,
-      "nombre": "Lorem ipsum",
+      "nombre": "Proyecto Dalto",
       "desde": "1981",
       "hasta": "1985",
-      "descripcion": "desde marzo 1981 hasta marzo 1985",
-      "link": ""
+      "descripcion": "Ambisioso proyecto para formar un programador pobre con grandes capacidades",
+      "link": "daltum@fofo,com"
     }, 
     {
       "id": 1,
-      "nombre": "Lorem ipsum",
+      "nombre": "argentina programa",
       "desde": "1981",
       "hasta": "1985",
-      "descripcion": "Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ",
-      "link": "#"
+      "descripcion": "Creacion de un curriculum vitae formato pagina webLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ",
+      "link": "apro@fofo,com"
     }, 
     {
       "id": 2,
-      "nombre": "Lorem ipsum",
+      "nombre": "GoCode",
       "desde": "1981",
       "hasta": "1985",
-      "descripcion": "Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ",
-      "link": "#"
+      "descripcion": "Creacion de un sitio webo para dar acceso webo gratuito a instutuciones que no tiene un mango partido al medio en forma gratuita it ametLorem ipsum dolor sit ",
+      "link": "gocogaby@fofóymiliki,com"
     }
   ],  
   

@@ -11,12 +11,13 @@ import { PortfolioService } from '../servicios/portfolio.service';
 
 
 export class AdministradorComponent implements OnInit {
-  //Inicializa la(s) variable(s) de instancia donde almacenar datos que trae el servicio
+  //Inicializa la(s) variable(s) de instancia donde almacenar datos sueltos que trae el servicio
 titulo: string= '';
 descripcion: string= '';
 img: any= ''
 banner?: any;
-//creo variable de instancia para guardar del json solo la parte "redes"  
+
+//creo variable de instancia para guardar del json solo las partes (arrays)
 redes?: any;
 exp?: any;
 educ?: any;
@@ -35,6 +36,7 @@ proy?: any;
       this.descripcion= portfolio.descripcion;
       this.img= portfolio.imgPerfil;
       this.banner= portfolio.banner; 
+    
       //traigo la parte "redes" del json para recorrerla despues con *ngFor
       this.redes= portfolio.redes 
       this.exp= portfolio.experiencia

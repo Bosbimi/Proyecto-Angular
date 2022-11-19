@@ -66,6 +66,8 @@
            <h4 class="text center">Mis Redes Sociales:</h4>
            <div class="mb-3"> 
             <div class= "borde" *ngFor= "let dato of redes">
+               <label for="formFileSm" class="form-label">Logo Red:</label><br>
+               <i [ngClass]="dato.icono"></i><br><br>
                <label for="formFileSm" class="form-label">URL Red:</label>
                <input class="form-control form-control-sm" id="formFileSm" type="url" value="{{dato.link}}">
                <button type="button" class="btn btn-primary">Confirmar</button>
@@ -80,7 +82,7 @@
           <h4 class="text center">Experiencia:</h4>
           <div class= "borde" *ngFor="let dato of exp">
             <div class="mb-3"> 
-              <label for="formFileSm" class="form-label">Logo empresa:</label><br>
+              <label for="formFileSm" class="form-label">Logo empresa (formato:200*200 px):</label><br>
               <img class="img-thumbnail" [src]= "dato.imagen" width="15%" alt=""><br><br>
               <input class="form-control form-control-sm" id="formFileSm" type="text" value="{{dato.imagen}}">
               <button type="button" class="btn btn-primary">Confirmar</button>
@@ -115,7 +117,7 @@
            <h4 class="text center">Educación:</h4>
            <div class="borde" *ngFor="let dato of educ">
              <div class="mb-3"> 
-               <label for="formFileSm" class="form-label">Logo Instituto:</label><br>
+               <label for="formFileSm" class="form-label">Logo Instituto (formato:200*200 px):</label><br>
                <img class="img-thumbnail" [src]= "dato.imagen" width="15%" alt=""><br><br>
                <input class="form-control form-control-sm" id="formFileSm" type="text" value="{{dato.imagen}}">
                <button type="button" class="btn btn-primary">Confirmar</button>

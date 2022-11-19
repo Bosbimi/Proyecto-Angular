@@ -8,14 +8,15 @@ import { PortfolioService } from '../servicios/portfolio.service';
 })
 export class RedesComponent implements OnInit {
   port?: any;
+ 
 
   constructor(private portfolioService: PortfolioService) { }
 
   ngOnInit(): void {
     this.portfolioService.getDatos().subscribe(portfolio=>{
-    //traigo el trozo "experiencia" desde el json para recorrerlo con *ngFor 
-    this.port= portfolio.redes
-    }) 
+    //traigo el trozo "redes" desde el json para recorrerlo con *ngFor 
+    this.port= portfolio.redes;
+   
+  })
   }
-
 }

@@ -10,19 +10,23 @@
   "redes":[
     {
       "id": 0,
-      "link": "https://www.linkedin.com"
+      "link": "https://www.linkedin.com",
+      "icono": "fa-brands fa-linkedin fa-2xl"
     },
     {
       "id": 1,
-      "link": "https://www.instagram.com"
+      "link": "https://www.instagram.com",
+      "icono": "fa-brands fa-instagram fa-2xl"
     },
     {
       "id": 2,
-      "link": "https://www.facebook.com/profile.php?id=100069830478324"
+      "link": "https://www.facebook.com/profile.php?id=100069830478324",
+      "icono": "fa-brands fa-facebook fa-2xl"
     },
     {
       "id": 3,
-      "link": "https://twitter.com/?lang=es"
+      "link": "https://twitter.com/?lang=es",
+      "icono": "fa-brands fa-twitter fa-2xl"
     }
   ], 
 
@@ -38,7 +42,7 @@
     }, 
     {
       "id": 1,
-      "imagen": "./assets/images/globant-logo.jpg",
+      "imagen": "./assets/images/comercio minorista.jpg",
       "puesto": "Actividad comercial por cuenta propia",
       "desde": "1985",
       "hasta": "2018",
@@ -46,8 +50,8 @@
     }, 
     {
       "id": 2,
-      "imagen": "./assets/images/digital company.png",
-      "puesto": "Actividad por cuenta propia",
+      "imagen": "./assets/images/trelicista.jpg",
+      "puesto": "Actividad profesional por cuenta propia",
       "desde": "1985",
       "hasta": "hoy",
       "actividad": "Electricista"   

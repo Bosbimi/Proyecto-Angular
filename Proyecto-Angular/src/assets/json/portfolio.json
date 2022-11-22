@@ -39,20 +39,28 @@
       "desde": "1981",
       "hasta": "1985",
       "actividad": "Montaje y soldadura de plaquetas electrónicas para control de antenas de radio eléctricas para automóviles"   
-    }, 
+    },
     {
       "id": 1,
+      "imagen": "./assets/images/elec&serv.png",
+      "puesto": "Asesoria tecnico-comercial",
+      "desde": "1986",
+      "hasta": "1990",
+      "actividad": "Asesoria y orientación a clientes finales sobre productos ofrecidos por la empresa"   
+    }, 
+    {
+      "id": 2,
       "imagen": "./assets/images/comercio minorista.jpg",
       "puesto": "Actividad comercial por cuenta propia",
-      "desde": "1985",
+      "desde": "1990",
       "hasta": "2018",
       "actividad": "Negocio Venta Minorista"   
     }, 
     {
-      "id": 2,
+      "id": 3,
       "imagen": "./assets/images/trelicista.jpg",
       "puesto": "Actividad profesional por cuenta propia",
-      "desde": "1985",
+      "desde": "1990",
       "hasta": "hoy",
       "actividad": "Electricista"   
     }
@@ -61,27 +69,27 @@
   "educacion":[
     {
       "id": 0,
-      "imagen": "./assets/images/UTN_logo.jpg",
-      "carrera": "Ciclo Básico de Ingenieria en Electrónica",
-      "desde": "1985",
-      "hasta": "1990",
-      "comentarios": "Este es  un comentario sobre Lorena Ipsum"
+      "imagen": "./assets/images/kennedy.jpg",
+      "carrera": "Tecnicatura en Electrónica",
+      "desde": "1979",
+      "hasta": "1985",
+      "comentarios": "Me recibí de Tecnico en Electrónica en esta espectacular Escuela de Educación Técnica John F. Kennedy, de Lanús"
     }, 
     {
       "id": 1,
-      "imagen": "./assets/images/logo institucion.jpg",
-      "carrera": "Lorena Veron Ipsum",
-      "desde": "1981",
-      "hasta": "1985",
-      "comentarios": " Comentando acerca de Papaíto Piernas Largas"
+      "imagen": "./assets/images/UTN_logo.jpg",
+      "carrera":  "Ciclo Básico de Ingenieria en Electrónica",
+      "desde": "1985",
+      "hasta": "1990",
+      "comentarios":  "Aqui en la Universidad Tecnológica Nacional aprendí sobre conocimientos ingenieriles, fisicos, químicos y matematicos básicos en general y electronicos en particular"
     }, 
     {
       "id": 2,
-      "imagen": "./assets/images/logo institucion.jpg",
-      "carrera": "Loren Ipsum",
-      "desde": "1981",
-      "hasta": "1985",
-      "comentarios": "Ahi va el comentario:  Aisasbúndaba Pafundafía"
+      "imagen": "./assets/images/icana.png",
+      "carrera": "Curso de Inglés Avanzado",
+      "desde": "1990",
+      "hasta": "1992",
+      "comentarios": "Estudié Inglés en el Instituto Cultural Argentino Norteamericano"
     }
   ],
   

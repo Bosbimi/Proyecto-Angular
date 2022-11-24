@@ -9,12 +9,12 @@ import { HttpClient } from '@angular/common/http';
 })
 export class PortfolioService {
 
-//Al hhtp siguiente se lo llama alias. Se puede llamr cualqr cosa(?)
-  constructor(private http: HttpClient) { }
+// datosjson es un alias.Puede tener cualqr nombre. HttpClient es protocolo para hacer las peticiones 
+  constructor(private datosjson: HttpClient) { }
   //Metodo observable que devuelve los datos
   getDatos(): Observable <any> {
-    //Llama al json via path (o podria ponerse una URL para traer datos de un json online)
-    return this.http.get('./assets/json/portfolio.json')
+   //Llama al json via path (o podria ponerse una URL para traer datos de un json online) y peticion GET
+    return this.datosjson.get('./assets/json/portfolio.json')
   }
 }
 

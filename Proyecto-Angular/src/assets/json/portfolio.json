@@ -96,27 +96,27 @@
   "proyectos":[
     {
       "id": 0,
-      "nombre": "Proyecto Dalto",
-      "desde": "1981",
-      "hasta": "1985",
-      "descripcion": "Ambisioso proyecto para formar un programador pobre con grandes capacidades",
-      "link": "daltum@fofo,com"
+      "nombre": "Proyecto Integrador de mi Portfolio Web",
+      "desde": "2022",
+      "hasta": "2023",
+      "descripcion": "Realizado durante el curso de Argentina Programa que otorga el título de Desarrollador Full Stack Developer Jr. plasmado en este CV. Aplica arquitectura distribuida incluyendo Base de Datos, Front end y Back End.",
+      "link": "miCVlink@.pepe"
     }, 
     {
       "id": 1,
-      "nombre": "argentina programa",
-      "desde": "1981",
-      "hasta": "1985",
-      "descripcion": "Creacion de un curriculum vitae formato pagina webLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ",
-      "link": "apro@fofo,com"
+      "nombre": "GoCode",
+      "desde": "2022",
+      "hasta": "hoy",
+      "descripcion": "Participación en el proyecto de creación de GoCode, sitio que conecta equipos de desarrolladores con otros proyectos solidarios de recursos limitados y sin fines de lucro que no tengan presencia en la Web para facilitarles su visibilidad en la misma mediante el diseño de sistemas de TI.",
+      "link": "https://www.linkedin.com/company/gocode-ar/"
     }, 
     {
       "id": 2,
-      "nombre": "GoCode",
-      "desde": "1981",
-      "hasta": "1985",
-      "descripcion": "Creacion de un sitio webo para dar acceso webo gratuito a instutuciones que no tiene un mango partido al medio en forma gratuita it ametLorem ipsum dolor sit ",
-      "link": "gocogaby@fofóymiliki,com"
+      "nombre": "Otro Proyecto",
+      "desde": "2022",
+      "hasta": "hoy",
+      "descripcion": "Aqui iría la descripción de otro proyecto que pudiera tener o en el que llegara a participar.",
+      "link": "OtroProyecto@fofoymiliki.com"
     }
   ],  
   

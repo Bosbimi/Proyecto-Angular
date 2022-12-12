@@ -1,0 +1,51 @@
+<!--Acerca de mi-->
+<div class="row">
+    <div class="col-sm-3 text-center" >
+      <!--columna separadora margen izquierdo vacia de ancho 3-->
+      
+    </div>
+    <div class="col-6 borde" >
+      <h4 class="text center"><i>Experiencia</i></h4>
+      <form [formGroup]= "form"  (ngSubmit)= "onEnviar($event)">
+        <div class="mb-3">
+          <label for="logo" class="form-label">Logo:</label>
+          <input type="file" class="form-control" formControlName="logo" [class.border-danger]= "LogoInvalid">
+          <div *ngIf="Logo?.errors && Logo?.touched">    
+            <p *ngIf="Logo?.hasError('required')" class="error">¡El campo es obligatorio!</p>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="puesto" class="form-label">Puesto:</label>
+          <input type="text" class="form-control" formControlName="puesto" [class.border-danger]="PuestoInvalid"  >
+          <div *ngIf="Puesto?.errors && Puesto?.touched">    
+            <p *ngIf="Puesto?.hasError('required')" class="error">¡El campo es obligatorio!</p>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="periodo" class="form-label">Período:</label>
+          <input type="text" class="form-control"formControlName="periodo" [class.border-danger]="PeriodoInvalid"  >
+          <div *ngIf="Periodo?.errors && Periodo?.touched">    
+            <p *ngIf="Periodo?.hasError('required')" class="error">¡El campo es obligatorio!</p>
+          </div>
+        </div>
+        <div class="mb-3">
+            <label for="actividad" class="form-label">Actividad:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" spellcheck="false" formControlName="actividad" [class.border-danger]= "ActividadInvalid"></textarea>
+            <div *ngIf="Actividad?.errors  && Actividad?.touched">    
+              <p *ngIf="Actividad?.hasError('required')" class="error">¡El campo es obligatorio!</p>
+              <p *ngIf= "Actividad?.hasError('maxlength')" class="error">¡El máximo admitido son 500 caracteres!</p>
+            </div>
+        </div>
+  
+        <button type="submit" class="btn btn-primary" >Confirmar</button>
+        
+      </form>
+    </div>
+    <div class="col-sm-3">
+      <!--columna vacia de ancho 3-->
+    </div>
+  </div>
+  
+  
+   
+

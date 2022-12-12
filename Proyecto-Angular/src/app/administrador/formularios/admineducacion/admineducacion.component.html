@@ -1,0 +1,48 @@
+<div class="row">
+    <div class="col-sm-3 text-center " >
+      <!--columna separadora margen izquierdo vacia de ancho 3-->
+     
+    </div>
+    <div class="col-6 borde" >
+      <h4 class="text center"><i>Educación</i></h4>
+      <form [formGroup]= "form"  (ngSubmit)= "onEnviar($event)">
+        <div class="mb-3">
+          <label for="logo" class="form-label">Logo:</label>
+          <input type="file" class="form-control" formControlName="logo" [class.border-danger]= "LogoInvalid">
+          <div *ngIf="Logo?.errors && Logo?.touched">    
+            <p *ngIf="Logo?.hasError('required')" class="error">¡El campo es obligatorio!</p>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="estudios" class="form-label">Estudios Cursados:</label>
+          <input type="text" class="form-control" formControlName="estudios" [class.border-danger]="EstudiosInvalid"  >
+          <div *ngIf="Estudios?.errors && Estudios?.touched">    
+            <p *ngIf="Estudios?.hasError('required')" class="error">¡El campo es obligatorio!</p>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="periodo" class="form-label">Período:</label>
+          <input type="text" class="form-control"formControlName="periodo" [class.border-danger]="PeriodoInvalid"  >
+          <div *ngIf="Periodo?.errors && Periodo?.touched">    
+            <p *ngIf="Periodo?.hasError('required')" class="error">¡El campo es obligatorio!</p>
+          </div>
+        </div>
+        <div class="mb-3" >
+            <label for="comentarios" class="form-label">Comentarios:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" spellcheck="false" formControlName="comentarios" [class.border-danger]= "ComentariosInvalid"></textarea>
+            <div *ngIf="Comentarios?.errors  && Comentarios?.touched">    
+              <p *ngIf="Comentarios?.hasError('required')" class="error">¡El campo es obligatorio!</p>
+              <p *ngIf= "Comentarios?.hasError('maxlength')" class="error">¡El máximo admitido son 500 caracteres!</p>
+            </div>
+        </div>
+  
+        <button type="submit" class="btn btn-primary" >Confirmar</button>
+      </form>
+    </div>
+    <div class="col-sm-3">
+      <!--columna vacia de ancho 3-->
+    </div>
+  </div>
+  
+   
+

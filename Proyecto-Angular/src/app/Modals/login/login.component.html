@@ -1,12 +1,12 @@
 
- <form [formGroup]= "form"  (ngSubmit)="onEnviar($event)" >
+ <form [formGroup]= "form"  (ngSubmit)="onEnviar($event)">
   <!--<form [formGroup]= "form" (submit)="submit()"> -->   
   <!--Comienzo cabecera modal nav-->
    <div class="modal fade" id="exampleModal" tabindex="-1">
       <div class="modal-dialog">
        <div class="modal-content">
           <div class="modal-header">
-           <h5 class="modal-title" id="exampleModalLabel">Ingreso</h5>
+           <h5 class="modal-title" id="exampleModalLabel">Ingreso al Administrador de Edicíon</h5>
            <button type="button" class="btn-close" data-bs-dismiss="modal"></button><!--El boton"X"-->
        </div>
        <!--comienzo cuerpo Modal-->
@@ -15,7 +15,7 @@
             <label for="staticEmail" class="col-sm-2 col-form-label">E-mail:</label><!--Etiqueta que dice "E-mail"-->
              <div class="col-sm-10">
                <!--Si el imput es MailInvalid=true se pone borde rojo-->
-               <input type="email" class="form-control-email"  formControlName="email" [class.border-danger]="MailInvalid"id="staticEmail" value="Ingrese aqui su E-mail"> <!--imput del e-mail-->
+               <input type="email" class="form-control-email"  formControlName="email" [class.border-danger]="MailInvalid" id="staticEmail" value="Ingrese aqui su E-mail"> <!--imput del e-mail-->
                 <!-- Gracias al getter que configuramos en el controlador -->
                <div *ngIf="Mail?.errors  && Mail?.touched">    
                   <p *ngIf="Mail?.hasError('required')" class="error">¡El email es obligatorio!</p>
@@ -35,7 +35,7 @@
               </div>
          </div>
            <div class="modal-footer"><!--Empieza footer del Modal-->
-             <button type="submit" class="btn btn-primary">Inicio de sesion</button>
+             <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
            </div>
          </div>
       </div>

@@ -15,6 +15,13 @@ import { HabilidadesComponent } from './habilidades/habilidades.component';
 import { EducacionComponent } from './educacion/educacion.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
 import { FooterComponent } from './footer/footer.component';
+import { AdminacercaComponent } from './administrador/formularios/adminacerca/adminacerca.component';
+import { AdmineducacionComponent } from './administrador/formularios/admineducacion/admineducacion.component';
+import { AdminexperienciaComponent } from './administrador/formularios/adminexperiencia/adminexperiencia.component';
+import { AdminhabilidadesComponent } from './administrador/formularios/adminhabilidades/adminhabilidades.component';
+import { AdminproyectosComponent } from './administrador/formularios/adminproyectos/adminproyectos.component';
+import { AdminredesComponent } from './administrador/formularios/adminredes/adminredes.component';
+import { Pagina404Component } from './pagina404/pagina404.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +35,16 @@ import { FooterComponent } from './footer/footer.component';
     HabilidadesComponent,
     EducacionComponent,
     ProyectosComponent,
-    FooterComponent
+    FooterComponent,
+    AdminacercaComponent,
+    AdmineducacionComponent,
+    AdminexperienciaComponent,
+    AdminhabilidadesComponent,
+    AdminproyectosComponent,
+    AdminredesComponent,
+    Pagina404Component
+
+
   ],
   imports: [
     BrowserModule,

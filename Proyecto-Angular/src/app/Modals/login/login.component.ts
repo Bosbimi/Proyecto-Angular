@@ -42,11 +42,12 @@ export class LoginComponent implements OnInit {
     }
 
     onEnviar(event: Event) {
-      //Detiene propagacion ejecucion de compotamiento de ciruela submit del form
+      //Detiene propagacion ejecucion de compotamiento de  submit del form
       event.preventDefault;
       
         if (this.form.valid) {
           //llama al servicio para enviar datos al  servidor-tambien podriamos ejecutar logica extra
+          
           alert ("Todo joya, ¡El Formulario fué enviado con éxito!")
         }
         else{

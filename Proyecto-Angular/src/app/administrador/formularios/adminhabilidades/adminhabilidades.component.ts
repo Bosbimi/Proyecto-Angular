@@ -16,7 +16,7 @@ export class AdminhabilidadesComponent implements OnInit {
     //url:['', [Validators.required, Validators.pattern('[a-zA-Z0-1@]*')]],
     //url:['', [Validators.required]],
     habilidad:['', [Validators.required ]],
-    porcentaje:['', [Validators.required]],
+    porcentaje:['', [Validators.required, Validators.min(0), Validators.max(100)]],
     
     
    })

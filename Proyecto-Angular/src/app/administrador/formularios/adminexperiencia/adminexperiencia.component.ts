@@ -14,7 +14,7 @@ export class AdminexperienciaComponent implements OnInit {
  this.form= this.formBuilder.group({
   //url:['', [Validators.required, Validators.pattern('[a-zA-Z0-1@]*')]],
   //url:['', [Validators.required]],
-  actividad:['', [Validators.required , Validators.maxLength(500)]],
+  actividad:['', [Validators.required , Validators.maxLength(300)]],
   logo:['', [Validators.required]],
   periodo:['', [Validators.required ]],
   puesto:['', [Validators.required]],

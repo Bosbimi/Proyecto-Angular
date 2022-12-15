@@ -1,14 +1,14 @@
 <!--Comienzo del nav -->
 <nav class="navbar navbar-expand-lg bg-primary">  
   <div class="container-fluid ">
-      <img src="assets/images/AP-YoProgramoLogo.png" alt="LogoArgentinaPrograma " width="12%" height="">
+      <img src="assets/images/AP-YoProgramoLogo.png" alt="LogoArgentinaPrograma " width="10%" height="">
       <h1>Página de Edición:</h1>
       
       <!--Button trigger modal. Este boton llama al Modal para salir de la pagina de edicion-->
       <i class="fa-solid fa-user" type="button">Salir</i>
   </div>
 </nav><!--Fin del nav-->
-<div class="btn-group" role="group" aria-label="Basic example">
+<div class="btn-group-sm text-center" role="group">
   <button type="button" class="btn btn-outline-secondary"><a routerLink= "/administrador/formularios/adminacerca"> Acerca de mí</a></button>
   <button type="button" class="btn btn-outline-secondary"><a routerLink= "/administrador/formularios/adminexperiencia"> Experiencia</a></button>
   <button type="button" class="btn btn-outline-secondary"><a routerLink= "/administrador/formularios/admineducacion"> Educación</a></button>
@@ -16,6 +16,6 @@
   <button type="button" class="btn btn-outline-secondary"><a routerLink= "/administrador/formularios/adminhabilidades" > Habilidades</a></button>
   <button type="button" class="btn btn-outline-secondary"><a routerLink= "/administrador/formularios/adminredes" > Mis Redes Sociales</a></button>
 </div>
-
-<router-outlet></router-outlet>
-
+<div class="overflow">
+  <router-outlet></router-outlet>
+</div>

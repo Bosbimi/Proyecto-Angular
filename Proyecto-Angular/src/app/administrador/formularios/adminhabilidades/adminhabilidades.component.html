@@ -18,6 +18,8 @@
           <input type="number" class="form-control" formControlName="porcentaje" [class.border-danger]="PorcentajeInvalid"  >
           <div *ngIf="Porcentaje?.errors && Porcentaje?.touched">    
             <p *ngIf="Porcentaje?.hasError('required')" class="error">¡El campo es obligatorio!</p>
+            <p *ngIf="Porcentaje?.hasError('max')" class="error">¡El valor máximo es 100!</p>
+            <p *ngIf="Porcentaje?.hasError('min')" class="error">¡El valor mínimo es 0!</p>
           </div>
         </div>
         

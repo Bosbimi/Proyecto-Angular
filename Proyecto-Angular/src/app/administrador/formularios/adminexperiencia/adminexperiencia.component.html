@@ -33,7 +33,7 @@
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" spellcheck="false" formControlName="actividad" [class.border-danger]= "ActividadInvalid"></textarea>
             <div *ngIf="Actividad?.errors  && Actividad?.touched">    
               <p *ngIf="Actividad?.hasError('required')" class="error">¡El campo es obligatorio!</p>
-              <p *ngIf= "Actividad?.hasError('maxlength')" class="error">¡El máximo admitido son 500 caracteres!</p>
+              <p *ngIf= "Actividad?.hasError('maxLength')" class="error">¡El máximo admitido son 300 caracteres!</p>
             </div>
         </div>
   
